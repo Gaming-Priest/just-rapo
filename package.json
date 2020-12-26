@@ -1,0 +1,47 @@
+{
+  "name": "tpl-react-less-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "install-dep": "npm i @babel/preset-env @babel/preset-react @hot-loader/react-dom react-hot-loader --no-bin-links",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@hot-loader/react-dom": "^17.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
